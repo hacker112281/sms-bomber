@@ -8,7 +8,7 @@ def print_slow(txt):
         time.sleep(0.1)
 red='\033[31m'
 green='\033[32m'
-print("toilet -f mono12 -F gay bomb") 
+
 
 phone = input(f"{green}[?]your target namber:  ") 
 f = "0" + phone.split("98")[1]

